@@ -7,7 +7,7 @@ package stacks_queues;
  * Reserve one empty space, and HEAD always points to it for differentiating empty vs full
  * head is empty space, and head + 1 is the first element
  * if head = tail empty;
- * if (tail + 1) mod (N) = head , then full (assuming elements from 0 to N-1)
+ * if (tail + 1) mod (N) = head , then full (assuming elements from 0 to N-1.
  * @param <E>
  */
 public class AQueue<E> extends Queue<E>{
