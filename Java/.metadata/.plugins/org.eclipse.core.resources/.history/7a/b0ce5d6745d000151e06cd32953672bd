@@ -1,0 +1,12 @@
+package stacks_queues;
+
+/**
+ * 
+ * @author vish
+ *
+ * @param <E>
+ */
+
+public class LQueue<E> extends Queue<E> {
+
+}

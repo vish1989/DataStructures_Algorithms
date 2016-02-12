@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="binaryTree.BST"/>
+<fullyQualifiedTypeName name="binaryTree.BSTNode"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.portable.ValueBase"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="utility.DSutil"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="heap.MaxHeap"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="heap.HeapSort"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="tests.fibonacci"/>
+<fullyQualifiedTypeName name="stacks_queues.AStack"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="stacks_queues.Queue"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="utility.LinkNode"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,63 @@
+package stacks_queues;
+
+/**
+ * Array implementation of Queue, default size is 1000
+ * @author vish
+ *
+ * @param <E>
+ */
+public class AQueue<E> extends Queue<E>{
+	
+	private int MAX_SIZE;
+	private int length;
+	private E[] arrayQueue;
+	private int HEAD;
+	private int TAIL;
+	
+	public AQueue() {
+		MAX_SIZE = 1000;
+		length = 0;
+		HEAD = TAIL = 0;
+		arrayQueue = (E[]) new Object[MAX_SIZE];
+	}
+	
+	public AQueue(int size) {
+		MAX_SIZE = size;
+		length = 0;
+		HEAD = TAIL = 0;
+		arrayQueue = (E[]) new Object[MAX_SIZE];
+	}
+	
+	@Override
+	public void clear() {
+		length = 0;
+		HEAD = TAIL = 0;
+	}
+
+	@Override
+	public int length() {
+		return length;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		return (length == 0);
+	}
+
+	@Override
+	public void enqueue(E e) {
+		if (HEAD == (TAIL + 1) % (MAX_SIZE)) {
+			return;
+		}
+		
+		TAIL = (TAIL + 1) % (MAX_SIZE);
+		arrayQueue[] = e;
+	}
+
+	@Override
+	public E dequeue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

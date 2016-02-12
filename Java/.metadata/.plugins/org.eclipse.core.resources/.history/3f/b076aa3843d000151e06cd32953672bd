@@ -1,0 +1,39 @@
+package stacks_queues;
+
+public class AQueue<E> extends Queue<E>{
+	
+	private int MAX_SIZE;
+	private int length;
+	private E[] arrayQueue;
+
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void length() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void enqueue(E e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public E dequeue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,13 @@
+package stacks_queues;
+
+/**
+ * Array based stack
+ * @author vish
+ *
+ */
+public class AStack<E> extends Stack<E>{
+	int length;
+	int size;
+	
+
+}

@@ -1,0 +1,13 @@
+package stacks_queues;
+
+/**
+ * 
+ * @author vish
+ *
+ */
+public abstract class Stack<E> {
+
+	public abstract void clear();
+	
+	
+}

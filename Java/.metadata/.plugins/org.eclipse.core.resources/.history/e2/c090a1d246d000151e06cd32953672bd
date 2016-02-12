@@ -1,0 +1,54 @@
+package stacks_queues;
+
+import utility.LinkNode;
+
+/**
+ * 
+ * @author vish
+ *
+ * @param <E>
+ */
+
+public class LQueue<E> extends Queue<E> {
+	
+	private LinkNode<E> HEAD;
+	private LinkNode<E> TAIL;
+	private int length;
+
+	LQueue() {
+		HEAD = TAIL = null;
+		length = 0;
+	}
+	
+	@Override
+	public void clear() {
+		HEAD = TAIL = null;
+		length = 0;
+	}
+
+	@Override
+	public int length() {
+		return length;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		return ((HEAD == null) && (TAIL == null));
+	}
+
+	@Override
+	public void enqueue(E e) {
+		TAIL = new LinkNode<E>(e, null, TAIL);
+		if(TAIL.getPrev() != null) {
+			TAIL.getPrev().setNext(TAIL);
+		}
+		length++;
+	}
+
+	@Override
+	public E dequeue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

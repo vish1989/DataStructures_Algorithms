@@ -1,0 +1,55 @@
+package stacks_queues;
+
+import utility.LinkNode;
+
+public class LStack<E> extends Stack<E> {
+
+	private LinkNode<E> curr;
+	private int length;
+
+	LStack() {
+		curr = null;
+		length = 0;
+	}
+	
+	@Override
+	public void clear() {
+		length = 0;
+		curr = null;
+	}
+
+	@Override
+	public void push(E e) {
+		// TODO Auto-generated method stub
+		LinkNode<E> temp = new LinkNode<E>(e, null, curr);
+		if(curr != null) {
+			curr.setNext(temp);
+		}
+		curr = temp;
+		length++;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		return (length == 0);
+	}
+
+	@Override
+	public E pop() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int length() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public E topValue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

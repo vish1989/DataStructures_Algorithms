@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;utility.LinkNode&apos; to &apos;LinkNodeKey&apos;&#x0A;- Original project: &apos;Shaffer_Java_Dsa&apos;&#x0A;- Original element: &apos;utility.LinkNode&apos;&#x0A;- Renamed element: &apos;utility.LinkNodeKey&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LinkNode&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;utility{LinkNode.java[LinkNode" matchStrategy="1" name="LinkNodeKey" qualified="false" references="true" similarDeclarations="false" stamp="1455055722315" textual="false" version="1.0"/>
+</session>

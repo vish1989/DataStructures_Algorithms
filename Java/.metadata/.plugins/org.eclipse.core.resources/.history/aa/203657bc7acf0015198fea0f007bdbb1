@@ -1,0 +1,51 @@
+package stacks_queues;
+
+/**
+ * Array based stack with default maxsize 1000
+ * @author vish
+ *
+ */
+public class AStack<E> extends Stack<E>{
+	int length;
+	int MAX_SIZE;
+	E[] stackArray;
+	
+	AStack() {
+		this.length = 0;
+		this.MAX_SIZE = 1000;
+		stackArray = new AStack<E>();
+	}
+	
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void push(E e) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public E pop() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public int length() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	@Override
+	public E topValue() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

@@ -1,0 +1,31 @@
+package utility;
+
+/**
+ * 
+ * @author vish
+ * LinkNode Class
+ */
+public class LinkNode<K, E> {
+
+	private E element;
+	private K key;
+	private LinkNode<K, E> next;
+	private LinkNode<K, E> prev;
+	
+	LinkNode(K key,E element) {
+		this.element = element;
+		this.key = key;
+		this.next = null;
+		this.prev = null;
+	}
+	
+	LinkNode(K key, E element, LinkNode<K, E> next, LinkNode<K, E> pre) {
+		this.element = element;
+		this.key = key;
+		this.next = next;
+		this.prev = prev;
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package utility;
+
+/**
+ * 
+ * @author vish
+ * LinkNode Class
+ */
+public class LinkNode<K, E> {
+
+	private E element;
+	private K key;
+	private LinkNode<K, E> next;
+	private LinkNode<K, E> prev;
+	
+	
+}

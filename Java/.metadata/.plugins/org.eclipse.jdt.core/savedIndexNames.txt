@@ -1,0 +1,16 @@
+INDEX VERSION 1.126+/home/vish/Copy_Backup/Copy/Learning_Material/Engineering/software/Programming/PracticalDataStructuresAlgorithms/Java/.metadata/.plugins/org.eclipse.jdt.core
+2535184621.index
+2135034128.index
+1753502620.index
+1621899873.index
+1051116316.index
+117406043.index
+3690486678.index
+1491059535.index
+2852920190.index
+3647768376.index
+1854671190.index
+2660038725.index
+3385824671.index
+3671202158.index
+2105028202.index

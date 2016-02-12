@@ -1,0 +1,13 @@
+package utility;
+
+/**
+ * 
+ * @author vish
+ * LinkNode Class
+ */
+public class LinkNode<E> {
+
+	
+	
+	
+}
